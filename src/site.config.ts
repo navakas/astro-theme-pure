@@ -3,9 +3,9 @@ import type { CardListData, Config, IntegrationUserConfig, ThemeUserConfig } fro
 export const theme: ThemeUserConfig = {
   // === Basic configuration ===
   /** Title for your website. Will be used in metadata and as browser tab title. */
-  title: 'Andrius Web Presence',
+  title: 'Andrius N',
   /** Will be used in index page & copyright declaration */
-  author: 'Andrius',
+  author: 'Andrius N',
   /** Description metadata for your website. Can be used in page metadata. */
   description: 'Random musings, mostly true.',
   /** The default favicon for your site which should be a path to an image in the `public/` directory. */
@@ -15,7 +15,7 @@ export const theme: ThemeUserConfig = {
     lang: 'en-US',
     attrs: 'en_US',
     // Date locale
-    dateLocale: 'en-US',
+    dateLocale: 'en-AU',
     dateOptions: {
       day: 'numeric',
       month: 'short',
@@ -94,7 +94,7 @@ export const theme: ThemeUserConfig = {
       }
     },
     /** Blog page size for pagination (optional) */
-    blogPageSize: 8,
+    blogPageSize: 4,
     // Currently support weibo, x, bluesky
     share: ['weibo', 'x', 'bluesky']
   }
