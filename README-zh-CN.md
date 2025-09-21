@@ -1,4 +1,4 @@
-# Astro Theme Pure
+# Andrius N
 
 [English](./README.md) | 简体中文
 

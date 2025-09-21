@@ -3,11 +3,11 @@ import type { CardListData, Config, IntegrationUserConfig, ThemeUserConfig } fro
 export const theme: ThemeUserConfig = {
   // === Basic configuration ===
   /** Title for your website. Will be used in metadata and as browser tab title. */
-  title: 'Astro Theme Pure',
+  title: 'Andrius Web Presence',
   /** Will be used in index page & copyright declaration */
-  author: 'Pure Lab',
+  author: 'Andrius',
   /** Description metadata for your website. Can be used in page metadata. */
-  description: 'Stay hungry, stay foolish',
+  description: 'Random musings, mostly true.',
   /** The default favicon for your site which should be a path to an image in the `public/` directory. */
   favicon: '/favicon/favicon.ico',
   /** Specify the default language for this site. */
@@ -59,10 +59,10 @@ export const theme: ThemeUserConfig = {
   footer: {
     // Year format
     year: `© ${new Date().getFullYear()}`,
-    // year: `© 2019 - ${new Date().getFullYear()}`,
+    // year: `© 2024 - ${new Date().getFullYear()}`,
     links: [
       // Registration link
-      {
+/*       {
         title: 'Moe ICP 114514',
         link: 'https://icp.gov.moe/?keyword=114514',
         style: 'text-sm' // Uno/TW CSS class
@@ -77,7 +77,7 @@ export const theme: ThemeUserConfig = {
         title: 'Site Policy',
         link: '/terms/list',
         pos: 2 // position set to 2 will be appended to copyright line
-      }
+      } */
     ],
     /** Enable displaying a “Astro & Pure theme powered” link in your site’s footer. */
     credits: true,
@@ -153,7 +153,7 @@ export const integ: IntegrationUserConfig = {
   },
   // Comment system
   waline: {
-    enable: true,
+    enable: false,
     // Server service link
     server: 'https://astro-theme-pure-waline.arthals.ink/',
     // Refer https://waline.js.org/en/guide/features/emoji.html
