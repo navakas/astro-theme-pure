@@ -48,12 +48,17 @@ export const theme: ThemeUserConfig = {
   header: {
     menu: [
       { title: 'Blog', link: '/blog' },
-      { title: 'Projects', link: '/projects' },
-      { title: 'Links', link: '/links' },
       { title: 'About', link: '/about' }
     ]
   },
-
+// header: {
+//     menu: [
+//       { title: 'Blog', link: '/blog' },
+//       { title: 'Projects', link: '/projects' },
+//       { title: 'Links', link: '/links' },
+//       { title: 'About', link: '/about' }
+//     ]
+//   },
   /** Configure the footer of your site. */
   footer: {
     // Year format
